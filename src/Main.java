@@ -5,7 +5,7 @@ public class Main {     //Main类
         //TIP Press <shortcut actionId="ShowIntentionActions"/> with your caret at the highlighted text
         // to see how IntelliJ IDEA suggests fixing it.
         class Solution {
-            private String name;
+            private final String name;
 
             public Solution(String name) {
                 this.name = name;
